@@ -1,0 +1,26 @@
+{
+  "name": "whatabite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamwebwiz/whatabite.git"
+  },
+  "keywords": [],
+  "author": "Ezekiel Oladejo <iamwebwiz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamwebwiz/whatabite/issues"
+  },
+  "homepage": "https://github.com/iamwebwiz/whatabite#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
