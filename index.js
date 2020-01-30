@@ -12,6 +12,10 @@ app.get('/', function(req, res) {
   res.render('index', { title: 'Home' });
 });
 
+app.get('/user', (req, res) => {
+  res.render('user', { title: 'Profile', userProfile: { nickname: 'Wiz' } });
+});
+
 app.listen(port, () =>
   console.log(`Server started at: http://localhost:${port}`)
 );
